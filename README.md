@@ -29,6 +29,4 @@ Flask backend for **E-Drive**, a peer-to-peer energy-trading platform where user
 
 
 
-## Team
 
-Aqib Masood, Monaim Ibrahim. Supervisor: Engr. Hussain Asif.
