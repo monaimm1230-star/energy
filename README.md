@@ -1,32 +1,26 @@
-# E-Drive Backend
+# E-Drive
 
-Flask backend for **E-Drive**, a peer-to-peer energy-trading platform where users can buy and sell energy directly from each other.
+A mobile app for peer-to-peer energy trading. Buy energy from nearby sellers or sell your own, with trades secured on a custom blockchain.
 
 ## Features
 
-- **User accounts:** Email signup and Google Sign-In
-- **Buyer and seller listings:** Post energy offers and browse available ones
-- **AI bidding engine:** Ranks offers by a weighted score of price (35%), quantity (35%), distance (20%) and other factors (10%)
-- **Trade confirmation:** Buyer and seller confirm a deal, with automatic retries for reliability
-- **Blockchain-backed records:** Confirmed trades are recorded on a custom hybrid blockchain
-- **Automatic wallets:** A blockchain wallet is created for both parties when needed
-- **Multi-currency support:** PKR, USD and EUR, with configurable exchange rates
-- **Unit preferences:** Show energy as units or kWh
-
-## Blockchain Highlights
-
-- ARM-256 hashing
-- AES-GCM encryption
-- Dual PoW / PoA chains
-- Merkle trees
-- ECDSA wallets
+- **Sign in your way:** Email signup or Google Sign-In
+- **Dashboard:** Wallet balances and quick access to trading at a glance
+- **Buyer and seller screens:** Browse offers, list energy for sale and contact the other party
+- **Smart matching:** AI bidding ranks offers by price, quantity and distance
+- **Trade confirmation:** Clear result screen after each trade
+- **Blockchain-secured trades:** Every confirmed trade is recorded on-chain
+- **Currency choice:** Switch between PKR, USD and EUR across the whole app
+- **Unit choice:** View energy as units or kWh
+- **Maps:** Google Maps integration to see where energy is available
+- **Slide-in menu:** Quick access to settings, preferences, navigation and logout
 
 ## Tech Stack
 
-- Python, Flask
-- MongoDB Atlas
-- Render (hosting)
-
+- React Native with Expo
+- Expo Router
+- Flask backend and MongoDB Atlas
+- Google Sign-In and Google Maps
 
 
 
